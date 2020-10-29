@@ -205,8 +205,6 @@ jack.checkers = [checker("p1", [2, 6]), checker("p1", [4, 8]), checker("p1", [4,
 def ts(elm):
     return elm[1]
 
-#results not working?
-
 def choose(ai, p1, lvl=3):
     
     all_results = []
@@ -331,4 +329,3 @@ def game():
     
 
 print(game())
-#possible name: JN66
